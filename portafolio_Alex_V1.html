@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <meta name="description" content="Personal portfolio of Alex Avila as a Riwi developer.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Alex Avila - Riwi Developer</h1>
+    <nav>
+        <a href="#about-me">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about-me">
+        <h2 >About me</h2>
+        <p>Hello, I'm Alex Avila.</p>
+        <p>I love creaating attractive and functional websites and am constantly learning to improve my skills.</p>
+        <p>I have a great passion for software developer and want to be a great programmer. </p> <br>
+        <img src="Alex.jpg" alt="Alex Avila's photo" width="200">
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVA SCRIPT</li>
+            <li>PYTHON</li>
+        </ul>
+        <br>
+        <img src="webpage.png" alt="Project portfolio image" width="300">
+    </section>
+    <section id="projects">
+        <table>
+            <tr>
+                <th>Project Name</th>
+                <th>Technologies Used</th>
+            </tr>
+            <tr>
+                <td>Portfolio website</td>
+                <td>HTML</td>
+                <td><a href="#">View Project</a></td>
+            </tr>
+        </table>
+        <h2>Projects</h2>
+        <h3>Project 1: Portfolio website.</h3>
+        <p>This is my first project where I built a personal portfolio using only HTML.</p>
+    </section>
+    <section id="contact">
+        <form action="/send" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Send">
+        </form>
+    </section>
+</body>
+<footer>
+    <a href="https://github.com/aavila573" target="_blank">GitHub</a>
+    <a href="https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav" target="_blank">linkedin</a>
+</footer>
+</html>
